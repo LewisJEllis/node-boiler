@@ -13,7 +13,7 @@ var logger = require('morgan'),
 var db = require('../config/db');
 var User = db.model('User');
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.disable('x-powered-by');
   app.set('views', path.join(config.appRoot, 'views'));
   app.engine('.hbs', exphbs({
