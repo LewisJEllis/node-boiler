@@ -34,9 +34,10 @@ This project generally represents how I would recommend starting a project (when
 Continuing with the "go-to toolbox" idea, the following are libraries which I've used in the past and would happily use again when applicable, but which were beyond the scope of this starting point.
 
 Testing:
-- [casper](http://casperjs.org/) - end-to-end
 - [nodeunit](https://github.com/caolan/nodeunit) - simple, minimal, unit
 - [mocha](http://mochajs.org/) - flexible, unit
+- [supertest](https://github.com/tj/supertest) - end-to-end api
+- [casper](http://casperjs.org/) - end-to-end browser
 - [istanbul](https://github.com/gotwarlost/istanbul) - code coverage
 - [loadtest](https://github.com/alexfernandez/loadtest) - performance/load
 
@@ -49,6 +50,7 @@ Packages that fill common specific needs:
 - [nodemailer](http://nodemailer.com/) - send emails
 - [sequelize](http://sequelizejs.com/) or [bookshelf](http://bookshelfjs.org/) - SQL ORMs
 - [moment](http://momentjs.com/) - data manipulation
+- [multer](https://github.com/expressjs/multer) - multipart uploads
 - [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) - to find more stuff
 
 Frontend: I don't do/know as much frontend stuff, but I like [backbone](http://backbonejs.org) for its minimal make-your-own-decisions philosophy and simple API.
